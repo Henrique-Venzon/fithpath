@@ -1,0 +1,87 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0f28;
+    color: #fff;
+  }
+  
+  /* Container principal */
+  .login-container {
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #11162f;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulário */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3c8dbc;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #2b6f90;
+  }
+  
+  form a {
+    color: #3c8dbc;
+    text-decoration: none;
+  }
+  
+  form a:hover {
+    text-decoration: underline;
+  }
+
+  /* Imagem */
+  .image img {
+    width: 350px;
+    height: 170px;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
+  /* Rodapé */
+  footer p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
